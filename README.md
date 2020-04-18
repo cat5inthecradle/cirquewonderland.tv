@@ -1,20 +1,18 @@
-Resources
-- medialive channel
-- iam role for accessing the medialive channel
-- input attachment
-- input security group
+# Cirquewonderland.tv
 
-Cloudformation template
-- looks like all the media stuff is custom resources
-- cfn might not work yet?
+## Infrastructure
 
-Alternative solution
-- nginx streaming server, rtmp
-- https://hub.docker.com/r/tiangolo/nginx-rtmp/
+I followed [this guide]() and finally got this working!
 
-Chat
-- live chat
-- facebook-like emoji taps for applause
+- Open Broadcaster Studio
+- AWS MediaLive
+- AWS MediaPackage
+- AWS CloudFront
+- The web page in the "live" folder of this repo
 
-Tip integration
-- tip tagged with current track? timestamp?
+## To Do
+
+- recreate the AWS resources to expect 720 (currently upscaling from 720 to 1080 on the recent shows)
+- style the page nicer
+- buy cirquewonderland.tv
+- analyze the cost of streaming an event
