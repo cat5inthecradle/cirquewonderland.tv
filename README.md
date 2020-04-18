@@ -1,5 +1,7 @@
 # Cirquewonderland.tv
 
+[Watch live!](https://cat5inthecradle.github.io/cirquewonderland.tv/live/)
+
 ## Infrastructure
 
 I followed [this guide]() and finally got this working!
