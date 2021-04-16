@@ -2,7 +2,7 @@
 
 ## Infrastructure
 
-I followed [this guide]() and finally got this working!
+I followed [this guide](https://d1.awsstatic.com/awselemental/workflowexamples/Workflow2_Example_OBS_Studio_to_MediaLive_and_MediaPackage.pdf) and finally got this working!
 
 - Open Broadcaster Studio
 - AWS MediaLive
